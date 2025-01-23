@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useTheme } from "next-themes";
 import { SunIcon,MoonIcon,SunMoon } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState} from "react";
 
 const ModToggle = () => {
     const [ mounted,setMounted ] = useState(false);
